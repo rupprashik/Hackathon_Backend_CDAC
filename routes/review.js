@@ -16,6 +16,7 @@ router.post('/add', (req, res) => {
                 res.send({status:"Success"})
             } 
             else res.send({status:"error",error})
+            
         } 
     )
     })
